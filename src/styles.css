@@ -1,1 +1,24 @@
 @import "tailwindcss";
+
+@theme{
+    --color-primary: hsl(217.2 91.2% 59.8%);
+    --color-secondary: hsl(222.2,84%,4.9%);
+    --color-muted-foreground: hsl(215 20.2% 65.1%);
+    --color-border: hsl(217.2 32.6% 17.5%);
+    --color-input: hsl(217.2 32.6% 17.5%);
+    --color-primary-foreground: hsl(222.2 47.4% 11.2%);
+}
+
+:root {
+  --primary: 220 90% 56%; /* H S L sin comas */
+}
+.nombre::after {
+  content: "";
+  position: absolute;
+  bottom: -0.25rem;
+  left: 0;
+  height: 0.25rem;
+  width: 100%;
+  border-radius: 0.25rem;
+  background-color: hsl(var(--primary) / 0.2);
+}
