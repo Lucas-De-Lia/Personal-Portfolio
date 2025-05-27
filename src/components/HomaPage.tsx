@@ -4,12 +4,10 @@ import { GithubIcon } from '../utils/GithubIcon';
 import { LinkedInIcon } from "../utils/LinkedInIcon";
 import { EmailIcon } from "../utils/EmailIcon";
 
-
-export const Home = () => {
+export const HomaPage = () => {
   return (
-    <main className="bg-secondary w-full h-screen ">
-      <section className="flex items-center justify-center py-25 gap-20" id="Home">
-          <div className="flex flex-col items-start justify-center gap-4 w-110 text-justify">
+    <section className="flex items-center justify-center py-40 gap-20" id="Home">
+          <div className="flex flex-col items-start justify-center gap-4 w-110 text-justify animate-flip-in-y">
             <h3 className="text-primary text-xl font-bold text-left">Hello! I'm</h3>
             <h1 className="text-white text-6xl font-bold ">Lucas <span className="text-primary relative nombre">De Lia</span></h1>
             <p className="text-muted-foreground text-2xl font-light">Full-Stack Developer & Sistems Engineering Student</p>
@@ -37,11 +35,8 @@ export const Home = () => {
             </div>
           </div>
           <div className="w-100 h-100">
-            <Lottie animationData={Animation} loop={true} autoplay={true}/>
+            <Lottie animationData={Animation} loop={true} autoplay={true} className="animate-fade-in-left"/>
           </div>
       </section>
-    </main>
   )
 }
-
-
