@@ -1,11 +1,11 @@
 import { About } from "./About"
-import { HomaPage } from "./HomaPage"
+import { HomePage } from "./HomePage"
 
 
 export const MainApp = () => {
   return (
     <main className="bg-secondary w-full h-screen">
-      <HomaPage/>
+      <HomePage/>
       <About/>
     </main>
   )

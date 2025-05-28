@@ -4,7 +4,7 @@ import { GithubIcon } from '../utils/GithubIcon';
 import { LinkedInIcon } from "../utils/LinkedInIcon";
 import { EmailIcon } from "../utils/EmailIcon";
 
-export const HomaPage = () => {
+export const HomePage = () => {
   return (
     <section className="flex items-center justify-center py-40 gap-20" id="Home">
           <div className="flex flex-col items-start justify-center gap-4 w-110 text-justify animate-flip-in-y">
