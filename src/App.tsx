@@ -1,5 +1,5 @@
-import { Header } from "./components/Header"
-import { MainApp } from "./components/MainApp"
+import { Header } from "./views/header/Header"
+import { MainApp } from "./views/main/MainApp"
 
 function App() {
   return (

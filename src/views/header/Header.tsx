@@ -1,6 +1,6 @@
 
-import { DevIcon } from "../utils/DevIcon";
-import { HeaderItem } from "./HeaderItem";
+import { DevIcon } from "../../utils/DevIcon";
+import { HeaderItem } from "./components/HeaderItem";
 
 export const Header = () => {
   return (

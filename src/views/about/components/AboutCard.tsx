@@ -1,5 +1,5 @@
-import { EducationIcon } from "../utils/EducationIcon";
-import { ExperienceIcon } from "../utils/ExperienceIcon";
+import { EducationIcon } from "../../../utils/EducationIcon";
+import { ExperienceIcon } from "../../../utils/ExperienceIcon";
 
 interface Props {
     type: string;

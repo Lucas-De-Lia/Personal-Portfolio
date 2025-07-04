@@ -1,15 +1,15 @@
 import Lottie from "lottie-react"
-import Animation from "../images/Animation.json"
-import { GithubIcon } from '../utils/GithubIcon';
-import { LinkedInIcon } from "../utils/LinkedInIcon";
-import { EmailIcon } from "../utils/EmailIcon";
+import Animation from "../../images/Animation.json"
+import { GithubIcon } from '../../utils/GithubIcon';
+import { LinkedInIcon } from "../../utils/LinkedInIcon";
+import { EmailIcon } from "../../utils/EmailIcon";
 
 export const HomePage = () => {
   return (
     <section className="flex w-full h-full items-center justify-center gap-20 pt-10" id="Home">
             <div className="flex flex-col items-start justify-center gap-4 w-110 text-justify animate-flip-in-y">
               <h3 className="text-primary text-xl font-bold text-left">Hello! I'm</h3>
-              <h1 className="text-white text-6xl font-bold ">Lucas <span className="text-primary relative nombre">De Lia</span></h1>
+              <h1 className="text-white text-6xl font-bold">Lucas <span className="text-primary relative nombre">De Lia</span></h1>
               <p className="text-muted-foreground text-2xl font-light">Full-Stack Developer & Sistems Engineering Student</p>
               <p className="text-muted-foreground font-normal">Building elegant solutions to complex problems with modern technologies.</p>
               <div className="flex justify-start items-center gap-2">
@@ -19,8 +19,8 @@ export const HomePage = () => {
                   >
                     Contact Me
                   </a>
-                  <a className="cursor-pointer font-bold bg-secondary text-white px-4 py-2 rounded-xl border border-border hover:bg-primary hover:text-primary-foreground hover:scale-110 transition-transform"
-                    href=""
+                  <a className="cursor-pointer font-bold bg-secondary text-white px-4 py-2 rounded-xl border border-border hover:bg-primary hover:text-primary-foreground hover:scale-110   "
+                    href="#Projects"
                   >
                     View Projects
                   </a>

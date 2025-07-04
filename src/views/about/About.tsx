@@ -1,7 +1,7 @@
-import { DownloadIcon } from "../utils/DownloadIcon"
-import { PaperIcon } from "../utils/PaperIcon"
-import { AboutCard } from "./AboutCard"
-import { AboutTecno } from "./AboutTecno"
+import { DownloadIcon } from "../../utils/DownloadIcon"
+import { PaperIcon } from "../../utils/PaperIcon"
+import { AboutCard } from "./components/AboutCard"
+import { AboutTecno } from "./components/AboutTecno"
 
 
 export const About = () => {
